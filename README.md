@@ -16,19 +16,19 @@ Maximum **5 hours**
 
 
 # To start:
-1) Fork this repo out by clicking the "Fork" button on the top on the GitHub page.
+1) Fork this repo out by clicking the "**Fork**" button on the top right side of the GitHub page.
 
 ```
 $ cd ~/Desktop
 ```
 
-2) Git clone your own forked repo
+2) Git clone your own forked repo.
 
 ```
 $ git clone <your repo address>
 ```
 
-3) Enter the repo.
+3) Navigate into the repo.
 ```
 $ cd <repo-name>
 ```
@@ -45,15 +45,15 @@ $ cd <repo-name>
 >
 > ```$ git push origin master```
 >
-> Ask mentor if you are stuck with git issue.
+> Ask a mentor if you are stuck with git issues.
 
-5) You should write your main functions inside "**playlist.rb**" file.
+5) You should write your driver code inside "**playlist.rb**" file.
 
-6) Once done, perform your last "git push origin master" to your repo.
+6) Once done, perform your last `git push origin master` to your repo.
 
-7) Slack mentor your GitHub repo link.
+7) Call a mentor and Slack him/her your GitHub repo link.
 
-8) Mentor will assess your performance.
+8) The mentor will assess your performance.
 
 
 
@@ -143,7 +143,7 @@ ruby playlist.rb --remove <id>
 ```
 
 
-This will delete the song with the ID from the list. Should the song is
+This will delete the song with the ID from the list. If the song is
 not found, a friendly error should be raised.
 
 Example:
